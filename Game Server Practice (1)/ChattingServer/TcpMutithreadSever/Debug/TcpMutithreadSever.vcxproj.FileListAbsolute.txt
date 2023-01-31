@@ -1,0 +1,2 @@
+C:\Users\Mr_K\Desktop\새 폴더 (3)\(학부)서버과제\TcpMutithreadSever\Debug\TcpMutithreadSever.exe
+C:\Users\Mr_K\Documents\서버\(학부)서버과제\TcpMutithreadSever\Debug\TcpMutithreadSever.exe

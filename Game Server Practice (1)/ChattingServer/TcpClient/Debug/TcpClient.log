@@ -1,0 +1,10 @@
+﻿  Thread.cpp
+C:\Users\Mr_K\Documents\서버\(학부)서버과제\지난 서버 숙제\TcpClient\Thread.cpp(29,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Mr_K\Documents\서버\(학부)서버과제\지난 서버 숙제\TcpClient\Thread.cpp(39,15): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+C:\Users\Mr_K\Documents\서버\(학부)서버과제\지난 서버 숙제\TcpClient\Thread.cpp(42,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Mr_K\Documents\서버\(학부)서버과제\지난 서버 숙제\TcpClient\Thread.cpp(51,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  client.cpp
+C:\Users\Mr_K\Documents\서버\(학부)서버과제\지난 서버 숙제\TcpClient\client.cpp(19,31): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  main.cpp
+  코드를 생성하고 있습니다...
+  TcpClient.vcxproj -> C:\Users\Mr_K\Documents\서버\(학부)서버과제\지난 서버 숙제\TcpClient\Debug\TcpClient.exe
