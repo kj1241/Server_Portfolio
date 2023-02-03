@@ -12,10 +12,16 @@ Server::Server()
 	nRet = WSAStartup(wVersionRequested, &wsaData);
 	if (nRet != 0) throw "소켓초기화 실패";
 	if (LOBYTE(wsaData.wVersion) != nMajor || HIBYTE(wsaData.wVersion) != nMinor) throw "윈도우 소켓 사용불가";
+	Data = new ThreadDATA;
 }
 
 Server::~Server()
 {
+	if (Data != nullptr)
+	{
+		delete Data;
+		Data = nullptr;
+	}
 }
 
 void Server::MakeIOCP()
@@ -62,6 +68,15 @@ bool Server::SetAccept()
 
 void Server::MainLoop()
 {
+	for (int i = 0; i < (int)si.dwNumberOfProcessors * 2; ++i)
+	{
+		hThread = CreateThread(NULL, 0, ThreadsServer, hIOCP, 0, NULL);
+		if (hThread == NULL)
+		{
+			return;
+		}
+		CloseHandle(hThread);
+	}
 
 	while (1)
 	{
@@ -138,7 +153,7 @@ void Server::MainLoop()
 
 			//스레드 데이터 넘기기
 			
-			Data = new ThreadDATA;
+
 			Data->hIOCP = hIOCP;
 			Data->count = &count;
 			Data->ptr = ptr;
@@ -146,7 +161,7 @@ void Server::MainLoop()
 			Data->playerSocket = playerSocket;
 			Data->playerPosition = playerPosition;
 
-			hThread = CreateThread(NULL, 0, ThreadsServer, Data, 0, NULL);
+			//hThread = CreateThread(NULL, 0, ThreadsServer, Data, 0, NULL);
 			Sleep(1);//제어권좀 넘겨
 		}
 	}

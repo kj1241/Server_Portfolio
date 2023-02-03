@@ -38,7 +38,7 @@ class Server :public Threads
 	bool playerConnect[maxPlayer] = {0};
 	SOCKET playerSocket[maxPlayer] = {0};
 	CHAR playerPosition[maxPlayer*2] = {0};
-	ThreadDATA* Data;
+
 
 public:
 	Server();

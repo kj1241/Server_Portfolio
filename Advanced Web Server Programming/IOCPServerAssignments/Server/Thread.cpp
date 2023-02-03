@@ -2,6 +2,7 @@
 #include "Thread.h"
 
 Threads *Threads::pThreads = nullptr;
+ThreadDATA* Threads::Data = nullptr;
 
 Threads::Threads()
 {
@@ -16,11 +17,12 @@ Threads::~Threads()
 DWORD __stdcall Threads::ThreadsFunction(LPVOID arg)
 {
 	ZeroMemory(recvBuffer, 512);
-	Data = (ThreadDATA*)arg;
+	//Data = (ThreadDATA*)arg;
+	HANDLE hIOCP = (HANDLE*)arg;
 	while (1)
 	{
 		// WSARecv
-		retval = GetQueuedCompletionStatus(Data->hIOCP, &cbTransferred, (LPDWORD)&client_sock, (LPOVERLAPPED*)&Data->ptr, INFINITE);
+		retval = GetQueuedCompletionStatus(hIOCP, &cbTransferred, (LPDWORD)&client_sock, (LPOVERLAPPED*)&Data->ptr, INFINITE);
 
 		int addrlen = sizeof(clientAddr);
 		getpeername(Data->ptr->sock, (SOCKADDR*)&clientAddr, &addrlen);

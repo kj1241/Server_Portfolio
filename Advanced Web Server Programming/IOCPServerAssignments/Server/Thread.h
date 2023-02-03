@@ -19,10 +19,11 @@ class Threads
 	void clientDisconnect();
 
 	void control(const char buf[]);
-	ThreadDATA* Data;
+	//ThreadDATA* Data;
 
 protected:
 	void sendPlayerPosition();
+	static ThreadDATA* Data;
 
 public:
 	Threads();
