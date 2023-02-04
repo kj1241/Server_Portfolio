@@ -1,11 +1,7 @@
-# Server_Assignment
-This is a server for university assignment submission.  
-Similar types were removed for each task.  
+# multithreaded addition program
+
+Multi-threaded addition program final assignment
+
+ <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fbo9Smi%2FbtrXIiojilo%2FaXEq2QcmvqhLjfF28TdTkk%2Fimg.png"> 
   
-  
-  
-  
-## Related subjects  
-2015 Fall Semester, System Programming   
-2016 Fall Semester, Game Server Practice (1)   
-2018 Fall Semester, Advanced Web Server Programming(=> Game Server Practice (2))   
+ <mark style="background-color:orange">**자세한 사항(티스토리): https://kyeoungju.tistory.com/32**  </mark> 
