@@ -1,0 +1,6 @@
+﻿  Main.cpp
+  WinAPI.cpp
+C:\Users\Mr_K\Documents\서버\(학부)서버과제\WinApi 서버\ChatClient\IOCP_ChatClient\WinAPI.cpp(137,26): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\Mr_K\Documents\서버\(학부)서버과제\WinApi 서버\ChatClient\IOCP_ChatClient\WinAPI.cpp(146,13): warning C4996: 'WSAAsyncSelect': Use WSAEventSelect() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  코드를 생성하고 있습니다...
+  IOCP_ChatClient.vcxproj -> C:\Users\Mr_K\Documents\서버\(학부)서버과제\WinApi 서버\ChatClient\IOCP_ChatClient\Debug\IOCP_ChatClient.exe
