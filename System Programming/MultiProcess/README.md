@@ -1,6 +1,6 @@
 # MultiProcess
 
-multi-process communication
+multi-process communication Assignment
 
  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbKdfrH%2FbtrXDh5B4wt%2FUDBxrqwpP57lqpMx5Qw2Rk%2Fimg.png"> 
   
