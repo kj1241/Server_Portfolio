@@ -1,3 +1,0 @@
-﻿  Thread.cpp
-C:\Users\Mr_K\Documents\서버\(학부)서버과제\서버 숙제\Client2\Client\Thread.cpp(83,18): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
-  Client.vcxproj -> C:\Users\Mr_K\Documents\서버\(학부)서버과제\서버 숙제\Client2\Client\Debug\Client.exe

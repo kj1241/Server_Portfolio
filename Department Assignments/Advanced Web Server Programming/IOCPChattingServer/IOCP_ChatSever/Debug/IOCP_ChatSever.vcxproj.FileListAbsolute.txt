@@ -1,1 +1,0 @@
-C:\Users\Mr_K\Documents\서버\(학부)서버과제\WinApi 서버\ChatClient\IOCP_ChatSever\Debug\IOCP_ChatSever.exe

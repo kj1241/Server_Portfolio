@@ -1,3 +1,0 @@
-﻿  IO2.cpp
-C:\Users\Mr_K\Documents\Server_Assignment\System Programming\MultiProcess\MultiProcess\IO2\IO2.cpp(15,1): warning C4326: 'wmain'의 반환 형식이 'int'이어야 하는데 'DWORD'입니다.
-  IO2.vcxproj -> C:\Users\Mr_K\Documents\Server_Assignment\System Programming\MultiProcess\MultiProcess\Debug\IO2.exe

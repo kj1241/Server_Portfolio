@@ -1,7 +1,0 @@
-﻿  main.cpp
-C:\Users\Mr_K\Documents\서버\(학부)서버과제\TcpMutithreadSever\main.cpp(2,25): warning C4356: 'Threads::clientNumber': 정적 데이터 멤버는 파생 클래스를 통해 초기화할 수 없습니다.
-C:\Users\Mr_K\Documents\서버\(학부)서버과제\TcpMutithreadSever\main.cpp(3,28): warning C4356: 'Threads::allClientSocket': 정적 데이터 멤버는 파생 클래스를 통해 초기화할 수 없습니다.
-  Sever.cpp
-  Thread.cpp
-  코드를 생성하고 있습니다...
-  TcpMutithreadSever.vcxproj -> C:\Users\Mr_K\Documents\서버\(학부)서버과제\TcpMutithreadSever\Debug\TcpMutithreadSever.exe

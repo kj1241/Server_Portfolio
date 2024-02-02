@@ -1,2 +1,0 @@
-C:\Users\Mr_K\Desktop\새 폴더 (3)\(학부)서버과제\서버 기말과제 ver1.1\TcpClientChattingProcess\Debug\TcpClientChattingProcess.exe
-C:\Users\Mr_K\Documents\Server_Assignment\Game Server Practice (1)\ChattingServer(ver.1.2)\TcpClientChattingProcess\Debug\TcpClientChattingProcess.exe

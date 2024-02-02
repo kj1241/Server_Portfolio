@@ -1,5 +1,0 @@
-﻿  Server.cpp
-C:\Users\Mr_K\Documents\서버\(학부)서버과제\서버 숙제\Server2\Server\Server.cpp(79,68): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-C:\Users\Mr_K\Documents\서버\(학부)서버과제\서버 숙제\Server2\Server\Server.cpp(180,14): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-C:\Users\Mr_K\Documents\서버\(학부)서버과제\서버 숙제\Server2\Server\Server.cpp(182,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  Server.vcxproj -> C:\Users\Mr_K\Documents\서버\(학부)서버과제\서버 숙제\Server2\Server\Debug\Server.exe
