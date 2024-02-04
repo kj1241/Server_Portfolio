@@ -7,6 +7,7 @@ int wmain() {
     if (WSAStartup(MAKEWORD(2, 2), &wsa) != 0)
         return 1;
 
+    std::locale::global(std::locale(""));
     std::wcout.imbue(std::locale("kor"));
 
     u_short x1 = 0x1234;

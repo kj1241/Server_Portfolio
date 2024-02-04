@@ -23,6 +23,7 @@ int wmain() {
     if (WSAStartup(MAKEWORD(2, 2), &wsa) != 0)
         return 1;
 
+    std::locale::global(std::locale(""));
     std::wcout.imbue(std::locale("kor"));
 
     // 원래의 IPv4 주소 출력

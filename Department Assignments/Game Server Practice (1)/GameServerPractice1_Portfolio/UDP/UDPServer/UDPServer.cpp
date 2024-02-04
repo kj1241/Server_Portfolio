@@ -43,6 +43,7 @@ int main(int argc, char *argv[])
 	if(WSAStartup(MAKEWORD(2,2), &wsa) != 0)
 		return 1;
 
+	std::locale::global(std::locale(""));
 	std::wcout.imbue(std::locale("kor"));
 
 	// socket()

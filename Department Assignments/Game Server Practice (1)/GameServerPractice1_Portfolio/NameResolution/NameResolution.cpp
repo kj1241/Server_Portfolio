@@ -102,6 +102,7 @@ int main(int argc, char* argv[])
     if (WSAStartup(MAKEWORD(2, 2), &wsa) != 0)
         return 1;
 
+    std::locale::global(std::locale(""));
     std::wcout.imbue(std::locale("kor"));
 
     std::wcout << L"도메인 이름(변환 전) = " << TESTNAME << L"\n";

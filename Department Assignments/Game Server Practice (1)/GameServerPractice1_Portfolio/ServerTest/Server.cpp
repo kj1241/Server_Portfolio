@@ -201,6 +201,9 @@ int wmain(int argc, wchar_t* argv[])
 	if (WSAStartup(MAKEWORD(2, 2), &wsa) != 0)
 		return 1;
 
+	std::locale::global(std::locale(""));
+	std::wcout.imbue(std::locale("kor"));
+
 	HANDLE hThread[2];
 	hThread[0] = CreateThread(NULL, 0, TCPServer4, NULL, 0, NULL);
 	hThread[1] = CreateThread(NULL, 0, TCPServer6, NULL, 0, NULL);
